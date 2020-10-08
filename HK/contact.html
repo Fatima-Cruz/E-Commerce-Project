@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/hk5.png">
+    <title>Hello Kitty Store</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <navbar class="navbar_main">
+
+        <figure>
+            <img class="navbar_visual navbar_items" src="Images/hk4.png" alt="Logo"> 
+          </figure>
+        <a class="navbar_options navbar_items" href="index.html">Home</a>
+        <a class="navbar_options navbar_items" href="products.html">Products</a>
+        <a class="navbar_options navbar_items" href="contact.html">Contact Us</a>    
+    </navbar>
+
+    <form> 
+        <div class="contactBox">
+         <div class="form"> 
+            <h1 class="title"> Contact us! <img class="bow_img" src="Images/bow.svg" alt="bow"> </h1>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required> </div><br>
+          
+           <div class="form"> <label for="phone"> Phone: </label>
+          <input type="tel" id="phone" name="phone" placeholder="704-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+             
+           <div class="form"> <input type="radio" id="mobile" name="type" value="mobile">
+        <label for="mobile">Mobile</label>
+        <input type="radio" id="home" name="type" value="home">
+        <label for="home">Home</label>
+        <input type="radio" id="work" name="type" value="work">
+             <label for="work">Work</label></div></div>
+          <br>
+          
+           <div class="form"> <label for="email"> Email: </label>
+          <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></div><br>
+             
+          <div class="form"> <label for="rate">How was your experience?</label>
+        <select id="rate" name="rate">
+        <option value="select" selected>Select</option>
+          <option value="good">Good</option>
+          <option value="neutral">Neutral</option>
+          <option value="bad">Bad</option>
+        </select> </div> <br>
+         
+           <div class="form"> <label for="textarea"> Leave a comment below!</label> <br>
+        <textarea id="textarea" rows="10" cols="45">Insert comment here</textarea></div> <br> 
+          
+          <div class="form"> <input class="submit_button" type="submit"> </div>
+            </div> 
+        </form>
+
+        <!-- Footer -->
+        <footer>
+            <div class="grid-container">
+              <div class="grid-item item1"><p class="copyright_text">Hello Kitty Shop ©</p>
+              </div>
+              
+                 <div class="grid-item item2">
+                   <div class="socials">
+                   <a href="https://www.facebook.com"> <img src="https://image.flaticon.com/icons/svg/1051/1051258.svg" alt="facebook"> </a> </div>
+                
+                  
+                  <div class="socials"> <a href= "https://www.snapchat.com/"><img src="https://image.flaticon.com/icons/svg/1051/1051271.svg" alt="snapchat"> </a> </div>
+                  
+                  <div class="socials"><a href="https://www.youtube.com/"> <img src="https://image.flaticon.com/icons/svg/1051/1051248.svg" alt="youtube"> </a></div> </div> 
+                
+                <div class="grid-item item3">
+            <img class="footer_logo" src= "Images/hk5.png" alt="logo">
+            </div> 
+               <div class="grid-item item4">
+              <img id="mePic" src="images/me.jpeg" alt="FatimaCruz"> <p id="byMe"> Website by Fatima Cruz </p>
+              </div>
+              </div>
+              </footer>
+</body>
+</html>
